@@ -1,0 +1,6 @@
+*~
+_site
+.sass-cache
+*bfg*
+.DS_Store
+.idea/

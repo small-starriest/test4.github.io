@@ -1,0 +1,88 @@
+---
+layout: page
+title: Members
+permalink: /members/
+---
+
+  <link rel="stylesheet" href="/assets/styles.css">      
+
+
+
+<center><a href="https://yale-lily.github.io/"><img src="/lily-logo.png" alt="test image" width="20%" height="20%"></a>  </center>
+  <header class="post-header">
+    <h2 class="post-title">Members</h2>
+  </header> 
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+{% for group in site.data.members %}
+<div class ="row" style="margin-top=20px">
+<div class="col-md-7" >
+<h3>{{group.group}}</h3>
+</div>
+</div>
+<div class ="row">
+
+<hr>        
+<ul class="responsive_grid">
+    {% for member in group.people %}
+      <li>
+        <div class="team_member">
+           <div class="info">
+            <img src="{{member.photo | prepend: site.member_photos}} ">
+           {% if member.title %}
+           <h5>{{member.name}}</h5> 
+           <h6>{{ member.title }}</h6>
+           {% else %}
+           <h5>{{member.name}}</h5> 
+           {% endif %}
+           {% if member.url %}
+           <h6>
+                   <a href="{{ member.url }}"> Website </a> </h6>
+           {% endif %}
+           {% if member.github %}
+           <h6>
+                 <a href="https://github.com/{{ member.github }}"> Github </a> <br>
+            </h6>
+           {% endif %}
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+</div>
+</ul>
+{% endfor %}
+
+<!---
+{% for group in site.data.members %}
+<div class ="row" style="margin-top=20px">
+<div class="col-md-7" >
+<h3>{{group.group}}</h3>
+</div>
+</div>
+<div class ="row">
+{% for member in group.people %}
+
+
+<div class="col-md-3"><div><a href="{{member.url}}">
+<img class="img-thumbnail" src="{% if member.githubid  %}https://avatars2.githubusercontent.com/u/{{member.githubid}}?v=3&s=400{% else %}{{member.photo}}{% endif %}"></a></div>
+<div style="margin-bottom:20px"><center><h4>{{member.name}}</h4></center></div> </div>
+                          
+            <p>
+                    {% if member.title %}
+                        {{member.name}} <br>{{ member.title }}
+                        <br>
+                    {% else %}
+                        {{ member.name }} <br>
+                    {% endif %}
+                    {% if member.url %}
+                          <a href="{{ member.url }}"> Website </a> <br>
+                    {% endif %}
+                    {% if member.github %}
+                          <a href="https://github.com/{{ member.github }}"> Github </a> <br>
+                    {% endif %}
+                </p>
+
+{% endfor %}
+</div>
+{% endfor %}
+-->

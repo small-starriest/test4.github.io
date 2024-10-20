@@ -1,0 +1,37 @@
+presentations: 
+    - term: LILY Reading Group Spring 2019
+      presentations: 
+        - date: 02/08
+          title: "<a href=\"https://cs.stanford.edu/~zxie/textgen.pdf\">Neural Text Generation: A Practical Guide</a>"
+          presenter: Alex Fabbri
+        - date: 02/15
+          title: <a href="https://papers.nips.cc/paper/7259-style-transfer-from-non-parallel-text-by-cross-alignment.pdf">Style Transfer from Non-Parallel Text by Cross-Alignment</a>
+          presenter: Alex Fabbri
+        - date: 02/22-03/15
+          title: ACL deadline & Spring Break
+    - term: LILY Reading Group Fall 2018
+      presentations:
+        - date: 09/14
+          title: <a href="https://arxiv.org/pdf/1808.08946.pdf">Why Self-Attention? A Targeted Evaluation of Neural Machine Translation Architectures</a>
+          presenter: Alex Fabbri
+        - date: 09/21
+          title: "<a href=\"https://stangelid.github.io/emnlp18oposum.pdf\">Summarizing Opinions: Aspect Extraction Meets Sentiment Prediction and They Are Both Weakly Supervised</a>"
+          presenter: Irene Li
+        - date: 09/28
+          title: <a href="https://arxiv.org/pdf/1805.09655.pdf">Global-Locally Self-Attentive Dialogue State Tracker</a>
+          presenter: Tao Yu
+        - date: 10/05
+          title: <a href="https://arxiv.org/pdf/1809.08370.pdf">Semi-Supervised Sequence Modeling with Cross-View Training</a>
+          presenter: Rui Zhang
+        - date: 10/12
+          title: "<a href=\"https://arxiv.org/pdf/1808.08949.pdf\">Dissecting Contextual Word Embeddings: Architecture and Representation</a>"
+          presenter: Yavuz Nuzumlali
+        - date: 10/26
+          title: "<a href=\"https://arxiv.org/pdf/1810.04805.pdf\">BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</a>"
+          presenter: Alex Fabbri
+        - date: 11/02
+          title: "<a href=\"https://arxiv.org/pdf/1806.02958.pdf\">The Case for Full-Matrix Adaptive Regularization</a>"
+          presenter: Yavuz Nuzumlali
+        - date: 11/09
+          title: "<a href=\"https://arxiv.org/pdf/1802.05365.pdf\">Deep contextualized word representations</a>"
+          presenter: Alex Fabbri

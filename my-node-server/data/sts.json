@@ -1,0 +1,28 @@
+[
+  {
+    "rank": 2,
+    "model": "Model B",
+    "model_size": 19,
+    "memory_usage": 9.5,
+    "embedding_dimensions": 1898,
+    "max_tokens": 2322,
+    "average": 0.25,
+    "classification_average": 0.35,
+    "clustering_average": 0.3,
+    "pairclassification_average": 0.55,
+    "reranking_average": 0.99
+  },
+  {
+    "rank": 3,
+    "model": "Model C",
+    "model_size": 6,
+    "memory_usage": 99,
+    "embedding_dimensions": 789,
+    "max_tokens": 882,
+    "average": 0.88,
+    "classification_average": 0.85,
+    "clustering_average": 0.87,
+    "pairclassification_average": 0.478,
+    "reranking_average": 0.74
+  }
+]

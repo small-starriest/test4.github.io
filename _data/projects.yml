@@ -1,0 +1,48 @@
+terms:
+  - term: Fall 2022
+    link: /projects_f2022/
+  - term: Spring 2022
+    link: /projects_s2022/
+  - term: Fall 2021
+    link: /projects_f2021/
+  - term: Spring 2021
+    link: /projects_s2021/
+  - term: Fall 2020
+    link: /projects_f2020/
+  - term: Spring 2020
+    link: /projects_s2020/
+  - term: Fall 2019
+    link: /projects_f2019/
+  - term: Spring 2019
+    link: /projects_s2019/
+  - term: Fall 2018
+    link: /projects_f2018/
+  - term: Spring 2018
+    link: /projects_s2018/
+  - term: Fall 2017
+    link: /projects_f2017/
+  - term: Spring 2017
+    link: /projects_s2017/
+
+major-projects:
+  - title: Table Summarization
+    link: /tsumm/
+    image: "/images/tsumm.png"
+  - title: Microsoft Project - Text Summarization
+    link: /msr/
+    image: "/images/msr.png"
+  - title: Facebook Project - Dialogue Summarization and Comprehension
+    link: /fb/
+    image: "/images/fb.png"
+  - title: All About NLP (AAN)
+    link: /aan/
+    image: "/images/aan.png"
+  - title: LogicSpider++ - Semantic Parsing
+    link: /logicspider/
+    image: "/images/logicspider.png"
+  - title: NLP for Electronic Health Records
+    link: /ehr/
+    image: "/images/ehr.png"
+  - title: NLP for Code Generation
+    link: /nlpforcode/
+    image: "/images/nlpforcode.png"
